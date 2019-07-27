@@ -1,0 +1,108 @@
+body {margin:0;}
+
+body, html {
+    height: 100%;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:1000px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+.parallax {
+    background-image: url('img_parallax.jpg');
+    height: 100%;
+	width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#divServices, #divContactUs, #divAbout, #divPromo{
+	background-color: black;
+	color: white;
+}
+
+#divServices h3, #divContactUs h3, #divAbout h3, #divPromo h3{ 
+	color: #f4bf62;
+	margin-top: 0;
+	margin-bottom: 20px;
+	text-align: center;
+	background-color: black;
+}
+
+#divAbout img, #divPromo img{
+	border: 5px solid #f4bf62;
+	border-radius: 10px;
+}
+
+
+#username{
+	color: #f4bf62;
+	font-size: 17px;
+	margin-top: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

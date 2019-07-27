@@ -1,0 +1,17 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+form label{
+	color: white;
+	float: left;
+}
+
+#btn{
+	float: left;
+}
+
+#ads h4, #ads h5{
+	color: white;
+}
