@@ -9,7 +9,7 @@
 	{
 		case "Add":
 			++$Stamps;
-			$sqlA = "UPDATE `Customers` SET `NumberofStamps`='" . $Stamps . "' WHERE `ControlNumber` = '" . $ControlID . "'";
+			$sqlA = "UPDATE `customers` SET `NumberofStamps`='" . $Stamps . "' WHERE `ControlNumber` = '" . $ControlID . "'";
 			$resA = mysqli_query($Conn,$sqlA);
 			if($resA){
 				echo "<script>window.open('Management.php','_self',null,true)</script>";
@@ -17,7 +17,7 @@
 			break;
 		case "Minus":
 			--$Stamps;
-			$sqlB = "UPDATE `Customers` SET `NumberofStamps`='" . $Stamps . "' WHERE `ControlNumber` = '" . $ControlID . "'";
+			$sqlB = "UPDATE `customers` SET `NumberofStamps`='" . $Stamps . "' WHERE `ControlNumber` = '" . $ControlID . "'";
 			$resB = mysqli_query($Conn,$sqlB);
 			if($resB){
 				echo "<script>window.open('Management.php','_self',null,true)</script>";

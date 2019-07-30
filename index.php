@@ -42,7 +42,7 @@
 			  <ul class="nav navbar-nav navbar-right">
 				<?php if($_UsernameVar == null){echo "<li><a href='Register.php?typeOfAction=Register'>Register</a></li>";} ?>
 				<li><?php if($_UsernameVar == null){echo "";} else { echo "<p id='username'>$_UsernameVar</p>"; } ?></li>
-				<li><?php if($_UsernameVar == null){echo "<a href='customerLogin.php?Role=User'>Login</a>";} else { echo "<a href='logout.php'>Logout</a>"; } ?></li>
+				<li><?php if($_UsernameVar == null){echo "<a href='CustomerLogin.php?Role=User'>Login</a>";} else { echo "<a href='logout.php'>Logout</a>"; } ?></li>
 			  </ul>
 			</div>
 		  </div>

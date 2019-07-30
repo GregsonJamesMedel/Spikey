@@ -93,7 +93,7 @@
 					{
 						if($typeOfActtion == "Register")
 						{
-							$sqlRegister = "INSERT INTO `customers`(`Username`, `Password`, `Firstname`, `Lastname`, `PlateNumber`, `TypeofVehicle`,`Role`,`NumberofStamps`) VALUES('$_Username','$_Password','$_Firstname','$_Lastname','$_Plate','$_VehicleType','User',0)";
+							$sqlRegister = "INSERT INTO `customers`(`Username`, `Password`, `Firstname`, `Lastname`, `PlateNumber`, `TypeofVehicle`,`Role`) VALUES('$_Username','$_Password','$_Firstname','$_Lastname','$_Plate','$_VehicleType','User')";
 							$res = mysqli_query($Conn,$sqlRegister);
 							if(!$res)
 								{
