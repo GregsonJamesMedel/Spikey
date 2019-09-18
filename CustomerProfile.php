@@ -10,9 +10,7 @@ session_start();
 	<title>Customer Profile</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="Script/JQuery.js"></script>
-	<script src="Script/bootstrap.js"></script>
-	<link rel="Stylesheet" type="text/css" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<link rel="Stylesheet" type="text/css" href="CSS/registerStyle.css">
 	<style>
 		#main{
@@ -156,6 +154,9 @@ session_start();
 			</div>
 		</div>
 	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>

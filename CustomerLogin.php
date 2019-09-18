@@ -12,9 +12,7 @@ $Role = $_GET['Role'];
 	<title>Customer Login</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="Script/JQuery.js"></script>
-	<script src="Script/bootstrap.js"></script>
-	<link rel="Stylesheet" type="text/css" href="CSS/bootstrap.css">	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">	
 </head>
 
 <body style="background-image: url('Images/bg1.png'); background-attachment: fixed;
@@ -63,6 +61,9 @@ $Role = $_GET['Role'];
             </div>
         </div>
 	</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>
 <script>
 	function RegisterClick()

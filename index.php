@@ -6,10 +6,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="Stylesheet" type="text/css" href="CSS/myStyle.css">
-		<link rel="Stylesheet" type="text/css" href="CSS/bootstrap.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 		<script src="Script/SpikeyScript.js"></script>
-		<script src="Script/JQuery.js"></script>
-		<script src="Script/bootstrap.js"></script>
 		<?php 
 		$_UsernameVar = null;
 		if(!empty($_SESSION["sawUsername"]))
@@ -252,6 +250,9 @@
 			<p>Copyright &copy; Spikey's Auto Wash 2017</p>
 			<a href="#">Back to top</a><br>
 		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	
 		<script>
 			function managementclick(){
@@ -260,8 +261,7 @@
 					window.open("CustomerLogin.php?Role=Admin","_self",null,true);
 				}
 			}
-		</script>
-		
+		</script>	
 	</body>
 </html>
 
